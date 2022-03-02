@@ -8,5 +8,4 @@ LABEL "com.github.actions.color"="6f42c1"
 RUN pip install --upgrade pip
 RUN pip install pycodestyle
 
-CMD ["pycodestyle", "/github/workspace/",  '--ignore=E501', '--max-line-length=120']
-
+CMD ["pycodestyle", "/github/workspace/",  "--ignore=E501", "--max-line-length=120"]
